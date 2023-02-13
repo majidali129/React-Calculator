@@ -1,0 +1,43 @@
+.contaier {
+  max-width:30rem;
+  min-width:480px;
+  width: 40%;
+  margin: 5em auto;
+  padding:1.5em 0.2em
+}
+.outputField{
+    height:90px;
+    width:80%;
+    border : 1px solid gray;
+    margin: 0em auto 0.3em auto;
+    padding:0em 0.5em;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    border-radius:3px;
+    font-size:1.8rem;
+    letter-spacing:0.1em;
+}
+.btns{
+    padding:1em 0em;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    gap:10px;
+
+}
+.btn_wrapper{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+.clearBtn{
+    width:100% !important;
+    box-shadow:none !important;
+    background-color:gray !important;
+    border-radius:2px;
+}

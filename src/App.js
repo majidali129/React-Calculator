@@ -1,8 +1,10 @@
-
+import React, {Fragment} from "react";
+import Calculator from "./Components/Calculator/Calculator.jsx/Calculator";
 function App() {
   return (
-    <div className="App">
-    </div>
+    <Fragment>
+      <Calculator/>
+    </Fragment>
   );
 }
 
